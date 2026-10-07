@@ -403,6 +403,12 @@ button {
 .card:hover .card__media img {
   transform: scale(1.04);
 }
+.card__media--contain img {
+  object-fit: contain;
+}
+.card:hover .card__media--contain img {
+  transform: none;
+}
 .card__media--empty::after {
   content: "Project image";
   display: grid;
